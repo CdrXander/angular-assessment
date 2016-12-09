@@ -16,6 +16,7 @@ angular.module('assessment',['ui.router'])
 		})
 		.state('shop', {
 			url:'/shop',
-			templateUrl:'./views/shop.html'
+			templateUrl:'./views/shop.html',
+			controller: 'shopCtrl'
 		})
 })
