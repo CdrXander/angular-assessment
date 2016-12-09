@@ -19,4 +19,9 @@ angular.module('assessment',['ui.router'])
 			templateUrl:'./views/shop.html',
 			controller: 'shopCtrl'
 		})
+		.state('details', {
+			url:'/detail/:id',
+			templateUrl:'./views/product-details.html',
+			controller: 'detailCtrl'
+		})
 })
